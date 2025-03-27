@@ -4,7 +4,7 @@ Hi Subscript! My name is Jay and this is my third attempt at doing this properly
 
 ### Getting Started
 
-Because this repo is so old I initially tried to update the dependencies, but thought it would be more interesting to see if I could just work with an older version. I had to do a bit of searching on Stack Overflow since the repo wouldn't even start, but with a simple addition to the scripts in package.json, I got it working without any issues. 🎉
+Because this repo is so old I initially tried to update the dependencies, but thought it would be more interesting to see if I could just work with an older version. (EDIT: I actually had to update some things because Jest wouldn't work otherwise.) I had to do a bit of searching on Stack Overflow since the repo wouldn't even start, but with a simple addition to the scripts in package.json, I got it working without any issues. 🎉
 
 You can start the app with the following command in your terminal:
 
