@@ -11,13 +11,15 @@ const TodoItem = ({ todo, handleChangeProps, deleteTodoProps }) => {
 
   return (
     <li className='todo-item'>
-      <input
-        type='checkbox'
-        checked={completed}
-        onChange={() => handleChangeProps(id)}
-      />
+      <label>
+        <input
+          type='checkbox'
+          checked={completed}
+          onChange={() => handleChangeProps(id)}
+        />
+        <span style={completed ? completedStyle : null}>{title}</span>
+      </label>
       <button onClick={() => deleteTodoProps(id)}>Delete</button>
-      <span style={completed ? completedStyle : null}>{title}</span>
     </li>
   );
 };

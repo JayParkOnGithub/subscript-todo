@@ -94,6 +94,8 @@ const TodoContainer = () => {
       {lists.map((list) => (
         <div key={list.id} style={{ minWidth: '300px', margin: '10px' }}>
           <input
+            type='text'
+            placeholder='List Name'
             value={list.title}
             style={{ border: 'none' }}
             onChange={(e) => handleTitleChange(list.id, e.target.value)}
